@@ -29,7 +29,7 @@ IDtest = test['PassengerId']
 
 
 # Outlier detection 
-
+# 이상치 감지 - 범위에서 많이 벗어난 값
 def detect_outliers(df,n,features):
     """
     Takes a dataframe df of features and returns a list of the indices
